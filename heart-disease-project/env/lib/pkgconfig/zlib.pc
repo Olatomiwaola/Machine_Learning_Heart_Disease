@@ -1,0 +1,13 @@
+prefix=/Users/personal/Desktop/ML/heart-disease-project/env
+exec_prefix=/Users/personal/Desktop/ML/heart-disease-project/env
+libdir=/Users/personal/Desktop/ML/heart-disease-project/env/lib
+sharedlibdir=/Users/personal/Desktop/ML/heart-disease-project/env/lib
+includedir=/Users/personal/Desktop/ML/heart-disease-project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
